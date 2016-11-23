@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+}
+
+aside.primary-aside {
+  width: 300px;
+}
+
+aside.primary-aside a.active {
+    font-weight: bold;
+    color: red;
+}
+
+
+
+main {
+  flex: 1;
+}
