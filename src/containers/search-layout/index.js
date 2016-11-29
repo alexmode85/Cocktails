@@ -11,21 +11,18 @@ export default class SearchLayout extends Component{
     }
 
 
-  render() {
-    return (
-      <div className='search'>
-        <header className='search-header'>
-          <h1>Top 5 cocktails width {this.props.params.base} for you</h1>
-        </header>
-        <div className='search-results'>
-          {this.props.children}
-        </div>
-        <footer className='search-footer'>
-          [Total Results]
-        </footer>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className='search'>
+                <header className='search-header'>
+                    <h1>Top 5 cocktails width {this.props.params.base} for you</h1>
+                </header>
+                <div className='search-results'>
+                    {this.props.children}
+                </div>
+            </div>
+        );
+    }
 }
 
 SearchLayout.childContextTypes = {

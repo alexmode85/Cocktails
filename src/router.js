@@ -7,7 +7,7 @@ import SearchLayout from './containers/search-layout/index';
 
 // Pages
 import Home from './components/home';
-import CockList from './components/coc-list';
+import CockList from './components/Coc-list/index';
 import NotFound from './components/NotFound';
 import Cocktail from './components/cocktail';
 

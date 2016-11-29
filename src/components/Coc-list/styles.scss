@@ -1,0 +1,33 @@
+.cock-prew {
+  width: 100%;
+}
+.user-list li {
+  margin-bottom: 1em;
+  @media screen and (min-width: 1464px) {
+    margin-left: 5.6010928962%;
+    float: left;
+    display: block;
+    margin-right: .8196721311%;
+    width: 21.5846994536%;
+    
+  }
+  @media (max-width: 1463px) and (min-width: 972px) {
+    float: left;
+    display: block;
+    margin-right: .8196721311%;
+    width: 32.7868852459%;
+
+  }
+  @media screen and (max-width: 971px) {
+    display: block;
+    margin-right: 1.2345679012%;
+    width: 32.5102880658%;
+  }
+  .title {
+    color: #3d414a;
+    font-size: 125%;
+  }
+}
+.cockListLink a{
+  text-decoration: none;
+}
