@@ -10,15 +10,14 @@ export default class CockList extends Component {
 
     render() {
         return (
-            <ul className='user-list'>
+            <div className='user-list'>
 
                 {(eval(this.context.base)).map( key =>
-                    <li key={key.toString()}>
-                        
-                        <Link to='/' className='cockListLink'><img className='cock-prew' src={`./public/img/${key}.jpg`} /> <div className='title'> {key} </div> </Link>
-                    </li>)}
+                    <div key={key.toString()}>
+                        <Link to='/' className='cockListLink'><img className='cock-prew' src={`./public/img/${key}.jpg`} /> <div className='metadata'> <h4 className='title'> {key} </h4> </div> </Link>
+                    </div>)}
                 
-            </ul>
+            </div>
         );
     }
 }

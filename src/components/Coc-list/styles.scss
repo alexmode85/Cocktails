@@ -1,15 +1,22 @@
 .cock-prew {
   width: 100%;
+  max-height: 360px;
 }
-.user-list li {
+.user-list {
+  display: flex;
+}
+.user-list>div {
   margin-bottom: 1em;
+  position: relative;
   @media screen and (min-width: 1464px) {
-    margin-left: 5.6010928962%;
     float: left;
     display: block;
     margin-right: .8196721311%;
     width: 21.5846994536%;
-    
+    :nth-child(4n) {
+      margin-right: 0;
+    }
+
   }
   @media (max-width: 1463px) and (min-width: 972px) {
     float: left;
@@ -24,9 +31,16 @@
     width: 32.5102880658%;
   }
   .title {
+    font-family: "Roboto Black",Verdana,sans-serif;
     color: #3d414a;
-    font-size: 125%;
+    padding: 0;
   }
+}
+.metadata {
+  min-height: 80px;
+  background: #ececec;
+  text-align: center;
+  padding: 1.5em .625em 1.5em;
 }
 .cockListLink a{
   text-decoration: none;
