@@ -15,12 +15,12 @@ export default class Home extends Component{
             <div className='app'>
                 <header className='primary-header'></header>
                 <aside className='primary-aside'>
-                    <ul>
-                        <li><Base to='Vodka' onClick={this.handler} /></li>
-                        <li><Base to='Gin' onClick={this.handler} /></li>
-                        <li><Base to='Brandy' onClick={this.handler} /></li>
-                        <li><Base to='Rum' onClick={this.handler} /></li>
-                        <li><Base to='Tequila' onClick={this.handler} /></li>
+                    <ul className='aside-ul'>
+                        <li className='aside-li'><Base to='Vodka' onClick={this.handler} /></li>
+                        <li className='aside-li'><Base to='Gin' onClick={this.handler} /></li>
+                        <li className='aside-li'><Base to='Brandy' onClick={this.handler} /></li>
+                        <li className='aside-li'><Base to='Rum' onClick={this.handler} /></li>
+                        <li className='aside-li'><Base to='Tequila' onClick={this.handler} /></li>
                     </ul>
                 </aside>
                 <main>

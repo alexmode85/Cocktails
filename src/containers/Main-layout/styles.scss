@@ -3,16 +3,23 @@
 }
 
 aside.primary-aside {
-  width: 300px;
+  width: 250px;
+  margin-left: 15px;
 }
 
 aside.primary-aside a.active {
-    font-weight: bold;
-    color: red;
+
 }
-
-
 
 main {
   flex: 1;
+}
+
+.aside-li {
+  margin: 15px;
+}
+.aside-ul {
+  padding: 0;
+  padding-top: 15px;
+  margin: 0;
 }
